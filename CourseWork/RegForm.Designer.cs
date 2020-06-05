@@ -62,8 +62,8 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(205, 51);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(207, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(234, 39);
             this.label2.TabIndex = 8;
@@ -79,11 +79,12 @@
             // 
             // regestration
             // 
-            this.regestration.BackColor = System.Drawing.Color.Transparent;
+            this.regestration.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.regestration.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
             this.regestration.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.regestration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.regestration.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.regestration.ForeColor = System.Drawing.SystemColors.ControlText;
             this.regestration.Location = new System.Drawing.Point(212, 310);
             this.regestration.Name = "regestration";
             this.regestration.Size = new System.Drawing.Size(229, 39);
@@ -104,6 +105,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(103, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 25);
@@ -114,6 +116,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(76, 223);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(213, 25);
@@ -124,6 +127,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(376, 152);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(173, 25);
@@ -134,6 +138,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label5.Location = new System.Drawing.Point(367, 223);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(189, 25);
@@ -154,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(654, 389);
             this.Controls.Add(this.backbut);
             this.Controls.Add(this.label5);

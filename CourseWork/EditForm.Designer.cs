@@ -95,6 +95,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label6.Location = new System.Drawing.Point(894, 388);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(214, 24);
@@ -105,6 +106,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label5.Location = new System.Drawing.Point(894, 326);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(380, 24);
@@ -115,6 +117,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(894, 266);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(212, 24);
@@ -125,6 +128,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(894, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(176, 24);
@@ -135,6 +139,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(894, 147);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(198, 24);
@@ -143,9 +148,10 @@
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.textBox6.Location = new System.Drawing.Point(936, 14);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -227,9 +233,10 @@
             // 
             // textBox9
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox9.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.textBox9.Location = new System.Drawing.Point(416, 436);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
@@ -260,6 +267,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1469, 502);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.textBox9);
