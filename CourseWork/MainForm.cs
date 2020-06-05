@@ -72,7 +72,7 @@ namespace CourseWork
             delete.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             ProgAboutForm faq = new ProgAboutForm();
