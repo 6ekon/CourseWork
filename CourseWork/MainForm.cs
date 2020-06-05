@@ -13,7 +13,6 @@ namespace CourseWork
 {
     public partial class MainForm : Form
     {
-        //ClassforClass[] cc;
         WriteRead wr = new WriteRead();
 
         public MainForm()
@@ -45,23 +44,6 @@ namespace CourseWork
         private void savebut_Click(object sender, EventArgs e)
         {
             wr.Write();
-            //if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-            //{
-            //    string filename = saveFileDialog1.FileName;
-            //    FileStream fs = new FileStream(filename, FileMode.OpenOrCreate, FileAccess.Write);
-            //    BinaryWriter bw = new BinaryWriter(fs, Encoding.UTF8);
-
-            //    bw.Write(ClassforClass.N);
-
-            //    for (int i = 0; i < ClassforClass.N; i++)
-            //    {
-            //        cc[i].Write(bw);
-            //    }
-
-            //    bw.Close();
-            //    fs.Close();
-            //    MessageBox.Show("Файл сохранен!");
-            //}
         }
 
         private void openbut_Click(object sender, EventArgs e)

@@ -110,5 +110,10 @@ namespace CourseWork
                 MessageBox.Show("Введите корректный маршрут!");
             }
         }
+
+        private void RefForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
     }
 }

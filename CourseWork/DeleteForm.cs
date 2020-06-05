@@ -48,5 +48,10 @@ namespace CourseWork
             MainForm mainform = new MainForm();
             mainform.Show();
         }
+
+        private void DeleteForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
     }
 }

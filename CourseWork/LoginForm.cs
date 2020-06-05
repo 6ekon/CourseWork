@@ -57,40 +57,6 @@ namespace CourseWork
             }
             LoginT.Clear();
             PasswordT.Clear();
-            //ClassforClass classforclass = new ClassforClass();
-            //string login, password;
-            //int count = 0;
-            //try
-            //{
-            //    login = LoginT.Text;
-            //    password = PasswordT.Text;
-            //    for (int i = 0; i < ClassforClass.K; i++)
-            //    {
-            //        if (login == ClassforClass.passwordcheck[i].login)
-            //            count++;
-            //    }
-            //    if ()
-            //    {
-            //        ClassforClass.K++;
-            //        classforclass.ArrayResPasswordCheck();
-            //        ClassforClass.passwordcheck[ClassforClass.D].login = login;
-            //        ClassforClass.passwordcheck[ClassforClass.D].password = password;
-            //        ClassforClass.D++;
-
-            //        MessageBox.Show("Данные сохранены!");
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Недопустимая длина введенной информации!");
-            //    }
-
-            //}
-            //catch
-            //{
-            //    MessageBox.Show("Введите корректные данные!");
-            //}
-            //LoginT.Clear();
-            //PasswordT.Clear();
         }
     }
 }

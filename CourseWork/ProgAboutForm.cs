@@ -49,5 +49,10 @@ namespace CourseWork
             MainForm mf = new MainForm();
             mf.Show();
         }
+
+        private void ProgAboutForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
     }
 }

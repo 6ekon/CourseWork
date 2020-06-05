@@ -62,40 +62,5 @@ namespace CourseWork
             N = 0;
             M = 0;
         }
-        //public void Write(BinaryWriter bw)
-        //{
-        //    bw.Write(bs.destination);
-        //    bw.Write(bs.busnum);
-        //    bw.Write(bs.departuretime);
-        //    bw.Write(bs.arrivetime);
-        //    bw.Write(bs.price);
-        //}
-        // -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-        //public void Read(BinaryReader br, string destination, int busnum, int departuretime, int arrivetime, int price)
-        //{
-        //    ClassforClass classforclass = new ClassforClass();
-        //    classforclass.destination = br.ReadDouble();
-        //    classforclass.busnum = br.ReadDouble();
-        //    classforclass.departuretime = br.ReadDouble();
-        //    classforclass.arrivetime = br.ReadDouble();
-        //    classforclass.price = br.ReadDouble();
-        //}
-        // -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-        //static class RegFormInfo
-        //{
-        //    public static int N, M;
-        //    public static string[] name = new string[N];
-        //    public static string[] surname = new string[N];
-        //    public static string[] login = new string[N];
-        //    public static string[] password = new string[N];
-        //}
-        //static class CreateBaseInfo
-        //{
-        //    public static int N, M;
-        //    public static string[] destination = new string[N];
-        //    public static int[] busnum = new int[N];
-        //    public static int[] departuretime = new int[N];
-        //    public static int[] arrivetime = new int[N];
-        //    public static int[] price = new int[N];
     }
 }

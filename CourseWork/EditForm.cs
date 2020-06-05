@@ -114,5 +114,10 @@ namespace CourseWork
                 MessageBox.Show("Введите корректный маршрут!");
             }
         }
+
+        private void EditForm_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
     }
 }

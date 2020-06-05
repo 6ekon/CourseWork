@@ -120,6 +120,7 @@
             this.Controls.Add(this.faq);
             this.Name = "ProgAboutForm";
             this.Text = "ProgAboutForm";
+            this.Load += new System.EventHandler(this.ProgAboutForm_Load);
             this.ResumeLayout(false);
 
         }

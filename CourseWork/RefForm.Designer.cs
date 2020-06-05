@@ -213,6 +213,7 @@
             this.Controls.Add(this.label1);
             this.Name = "RefForm";
             this.Text = "ы";
+            this.Load += new System.EventHandler(this.RefForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
